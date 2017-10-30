@@ -1,6 +1,7 @@
 import os,sys
 from flask import Flask,request
 from pymessenger import Bot
+import sys
 
 
 # initializing the flask app
@@ -61,4 +62,6 @@ def log(mess):
 
 
 if __name__=="__main__":
+    k=0
+    print("initialising")
     app.run(debug=True)
